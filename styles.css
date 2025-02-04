@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('background.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 500px;
+    margin: 10% auto;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+.message {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+#yesBtn {
+    background: #ff4d79;
+    color: white;
+}
+
+#yesBtn:hover {
+    background: #ff1a50;
+}
+
+#noBtn {
+    background: #333;
+    color: white;
+    position: absolute;
+}
+
+.hidden {
+    display: none;
+    font-size: 20px;
+    margin-top: 15px;
+    color: #ffcc00;
+}
