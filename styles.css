@@ -28,11 +28,12 @@ h1, h2 {
 .buttons {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px; /* Adds space between Yes and No buttons */
+    margin-top: 15px;
 }
 
 button {
-    padding: 10px 20px;
+    padding: 12px 20px;
     font-size: 18px;
     border: none;
     cursor: pointer;
@@ -52,7 +53,7 @@ button {
 #noBtn {
     background: #333;
     color: white;
-    position: absolute;
+    position: relative;
 }
 
 .hidden {
